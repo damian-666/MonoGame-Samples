@@ -45,6 +45,6 @@ Global
 		{F0B32BB5-1E28-453B-B4D6-BEC0E159DFB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Aiming\Aiming.PSMobile.csproj
+		StartupItem = Draw2D\Draw2D.PSMobile.csproj
 	EndGlobalSection
 EndGlobal
