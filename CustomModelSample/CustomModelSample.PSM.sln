@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomModelSample", "CustomModelSample.PSM\CustomModelSample.csproj", "{AF688CD4-8648-41C7-BC17-29DB972CB017}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomModelSample", "CustomModelClassSample.PSM\CustomModelClassSample.csproj", "{AF688CD4-8648-41C7-BC17-29DB972CB017}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomModelTypes.PSM", "CustomModelTypes\CustomModelTypes.PSM.csproj", "{92CC3503-4449-4084-803D-96625C70ABBA}"
 EndProject

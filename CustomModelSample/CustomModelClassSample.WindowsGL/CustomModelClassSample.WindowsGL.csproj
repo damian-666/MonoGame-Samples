@@ -57,28 +57,28 @@
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\CustomContentSample.MonoGame\bin\Windows\Content\engine_diff_tex_0.xnb">
-      <Link>Content\engine_diff_tex_0.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\CustomContentSample.MonoGame\bin\Windows\Content\tank.xnb">
-      <Link>Content\tank.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\CustomContentSample.MonoGame\bin\Windows\Content\turret_alt_diff_tex_0.xnb">
-      <Link>Content\turret_alt_diff_tex_0.xnb</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\..\MonoGame.Framework\MonoGame.Framework.WindowsGL.csproj">
       <Project>{7de47032-a904-4c29-bd22-2d235e8d91ba}</Project>
       <Name>MonoGame.Framework.WindowsGL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CustomModelTypes\CustomModelTypes.Pipeline.csproj">
-      <Project>{fd161b8c-8bab-48c5-9638-ecfda46a8d67}</Project>
-      <Name>CustomModelTypes.Pipeline</Name>
+    <ProjectReference Include="..\CustomModelTypes\CustomModelTypes.WindowsGL.csproj">
+      <Project>{ee26aef8-a984-4d01-aff6-79fea4620eb1}</Project>
+      <Name>CustomModelTypes.WindowsGL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\CustomContentSample.ContentBuilder\bin\Windows\Content\engine_diff_tex_0.xnb">
+      <Link>Content\engine_diff_tex_0.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\CustomContentSample.ContentBuilder\bin\Windows\Content\tank.xnb">
+      <Link>Content\tank.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\CustomContentSample.ContentBuilder\bin\Windows\Content\turret_alt_diff_tex_0.xnb">
+      <Link>Content\turret_alt_diff_tex_0.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
