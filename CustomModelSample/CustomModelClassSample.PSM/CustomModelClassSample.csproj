@@ -51,17 +51,6 @@
     <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\CustomContentSample.MonoGame\bin\PSM\Content\engine_diff_tex_0.xnb">
-      <Link>Content\engine_diff_tex_0.xnb</Link>
-    </Content>
-    <Content Include="..\CustomContentSample.MonoGame\bin\PSM\Content\tank.xnb">
-      <Link>Content\tank.xnb</Link>
-    </Content>
-    <Content Include="..\CustomContentSample.MonoGame\bin\PSM\Content\turret_alt_diff_tex_0.xnb">
-      <Link>Content\turret_alt_diff_tex_0.xnb</Link>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\..\ThirdParty\Lidgren.Network\Lidgren.Network.PSMobile.csproj">
       <Project>{167676EE-E2D5-440A-BB2B-EFBD02BC8493}</Project>
       <Name>Lidgren.Network.PSMobile</Name>
@@ -74,5 +63,16 @@
       <Project>{92CC3503-4449-4084-803D-96625C70ABBA}</Project>
       <Name>CustomModelTypes.PSM</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\CustomContentSample.ContentBuilder\bin\PSM\Content\engine_diff_tex_0.xnb">
+      <Link>Content\engine_diff_tex_0.xnb</Link>
+    </Content>
+    <Content Include="..\CustomContentSample.ContentBuilder\bin\PSM\Content\tank.xnb">
+      <Link>Content\tank.xnb</Link>
+    </Content>
+    <Content Include="..\CustomContentSample.ContentBuilder\bin\PSM\Content\turret_alt_diff_tex_0.xnb">
+      <Link>Content\turret_alt_diff_tex_0.xnb</Link>
+    </Content>
   </ItemGroup>
 </Project>
