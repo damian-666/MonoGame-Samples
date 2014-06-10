@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomContentSample.MonoGameContent\CustomContentSample.MonoGameContent.contentproj">
-      <Name>CustomContentSample.MonoGameContent %28Content%29</Name>
+      <Name>CustomContentSample.MonoGameContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
       <Project>{5A8C6249-096D-4CA7-A91D-4F736E3B5D16}</Project>
     </ProjectReference>
