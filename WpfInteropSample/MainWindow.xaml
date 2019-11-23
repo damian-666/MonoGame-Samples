@@ -5,7 +5,7 @@
         Title="MainWindow"
         Width="525"
         Height="350">
-    <Grid>
+    <Grid Focusable="True"  KeyDown="Grid_KeyDown" MouseDown="Grid_MouseDown" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
@@ -15,13 +15,13 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <local:D3D11Host x:Name="Host0"
+        <local:D3D11Host Focusable="True" PreviewKeyDown="Host0_PreviewKeyDown" KeyDown="Host0_KeyDown" x:Name="Host0"
                          Grid.Row="0"
                          Grid.Column="0"
-                         Margin="5"
+                         Margin="0,5,10.333,5"
                          SnapsToDevicePixels="True"
                          Stretch="Fill" />
-        <local:D3D11Host x:Name="Host1"
+        <local:D3D11Host x:Name="Host1" MouseDown="Host1_MouseDown"
                          Grid.Row="0"
                          Grid.Column="1"
                          Margin="5"
@@ -32,12 +32,14 @@
                          Grid.Column="0"
                          Margin="5"
                          SnapsToDevicePixels="True"
-                         Stretch="Fill" />
+                         Stretch="Uniform" />
         <local:D3D11Host x:Name="Host3"
                          Grid.Row="1"
                          Grid.Column="1"
                          Margin="5"
                          SnapsToDevicePixels="True"
                          Stretch="Fill" />
+        <Ellipse Fill="#44F4F4F5"     Grid.Row="0"
+                         MouseDown="Ellipse_MouseDown"  Grid.Column="1" Stretch="Fill"  Width="70" Height="70"  HorizontalAlignment="Center"  Stroke="Black" VerticalAlignment="Center" />
     </Grid>
 </Window>

@@ -117,7 +117,7 @@ namespace WpfInteropSample
                         // Do not associate graphics device with window.
                         DeviceWindowHandle = IntPtr.Zero,
                     };
-                    _graphicsDevice = new GraphicsDevice(GraphicsProfile.HiDef, presentationParameters);
+                    _graphicsDevice = new GraphicsDevice(GraphicsAdapter.DefaultAdapter,GraphicsProfile.HiDef, presentationParameters);
                 }
             }
         }
